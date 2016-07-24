@@ -1,0 +1,141 @@
+Podfile.lock
+Pods/Manifest.lock
+Pods/Headers/Private/Nimble/CurrentTestCaseTracker.h
+Pods/Headers/Private/Nimble/DSL.h
+Pods/Headers/Private/Nimble/Nimble.h
+Pods/Headers/Private/Nimble/NMBExceptionCapture.h
+Pods/Headers/Private/Nimble/NMBStringify.h
+Pods/Headers/Private/Quick/NSString+QCKSelectorName.h
+Pods/Headers/Private/Quick/QCKDSL.h
+Pods/Headers/Private/Quick/Quick.h
+Pods/Headers/Private/Quick/QuickConfiguration.h
+Pods/Headers/Private/Quick/QuickSpec.h
+Pods/Headers/Private/Quick/World+DSL.h
+Pods/Headers/Private/Quick/World.h
+Pods/Nimble/LICENSE.md
+Pods/Nimble/README.md
+Pods/Nimble/Sources/Nimble/DSL+Wait.swift
+Pods/Nimble/Sources/Nimble/DSL.swift
+Pods/Nimble/Sources/Nimble/Expectation.swift
+Pods/Nimble/Sources/Nimble/Expression.swift
+Pods/Nimble/Sources/Nimble/FailureMessage.swift
+Pods/Nimble/Sources/Nimble/Nimble.h
+Pods/Nimble/Sources/Nimble/Adapters/AdapterProtocols.swift
+Pods/Nimble/Sources/Nimble/Adapters/AssertionDispatcher.swift
+Pods/Nimble/Sources/Nimble/Adapters/AssertionRecorder.swift
+Pods/Nimble/Sources/Nimble/Adapters/NimbleEnvironment.swift
+Pods/Nimble/Sources/Nimble/Adapters/NimbleXCTestHandler.swift
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/CurrentTestCaseTracker.h
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/DSL.h
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/DSL.m
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBExceptionCapture.h
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBExceptionCapture.m
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBExpectation.swift
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBObjCMatcher.swift
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBStringify.h
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/NMBStringify.m
+Pods/Nimble/Sources/Nimble/Adapters/ObjectiveC/XCTestObservationCenter+Register.m
+Pods/Nimble/Sources/Nimble/Matchers/AllPass.swift
+Pods/Nimble/Sources/Nimble/Matchers/AsyncMatcherWrapper.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeAKindOf.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeAnInstanceOf.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeCloseTo.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeEmpty.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeginWith.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeGreaterThan.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeIdenticalTo.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeLessThan.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeLessThanOrEqual.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeLogical.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeNil.swift
+Pods/Nimble/Sources/Nimble/Matchers/BeVoid.swift
+Pods/Nimble/Sources/Nimble/Matchers/Contain.swift
+Pods/Nimble/Sources/Nimble/Matchers/EndWith.swift
+Pods/Nimble/Sources/Nimble/Matchers/Equal.swift
+Pods/Nimble/Sources/Nimble/Matchers/HaveCount.swift
+Pods/Nimble/Sources/Nimble/Matchers/Match.swift
+Pods/Nimble/Sources/Nimble/Matchers/MatcherFunc.swift
+Pods/Nimble/Sources/Nimble/Matchers/MatcherProtocols.swift
+Pods/Nimble/Sources/Nimble/Matchers/MatchError.swift
+Pods/Nimble/Sources/Nimble/Matchers/PostNotification.swift
+Pods/Nimble/Sources/Nimble/Matchers/RaisesException.swift
+Pods/Nimble/Sources/Nimble/Matchers/SatisfyAnyOf.swift
+Pods/Nimble/Sources/Nimble/Matchers/ThrowError.swift
+Pods/Nimble/Sources/Nimble/Utils/Async.swift
+Pods/Nimble/Sources/Nimble/Utils/Errors.swift
+Pods/Nimble/Sources/Nimble/Utils/Functional.swift
+Pods/Nimble/Sources/Nimble/Utils/SourceLocation.swift
+Pods/Nimble/Sources/Nimble/Utils/Stringers.swift
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/Pods.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/Nimble.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/Pods-QuickAndNimbleTests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/Pods-QuickAndNimbleUITests.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/Quick.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Quick/LICENSE
+Pods/Quick/README.md
+Pods/Quick/Sources/Quick/Callsite.swift
+Pods/Quick/Sources/Quick/ErrorUtility.swift
+Pods/Quick/Sources/Quick/Example.swift
+Pods/Quick/Sources/Quick/ExampleGroup.swift
+Pods/Quick/Sources/Quick/ExampleMetadata.swift
+Pods/Quick/Sources/Quick/Filter.swift
+Pods/Quick/Sources/Quick/NSBundle+CurrentTestBundle.swift
+Pods/Quick/Sources/Quick/NSString+QCKSelectorName.h
+Pods/Quick/Sources/Quick/NSString+QCKSelectorName.m
+Pods/Quick/Sources/Quick/Quick.h
+Pods/Quick/Sources/Quick/QuickSelectedTestSuiteBuilder.swift
+Pods/Quick/Sources/Quick/QuickSpec.h
+Pods/Quick/Sources/Quick/QuickSpec.m
+Pods/Quick/Sources/Quick/QuickTestSuite.swift
+Pods/Quick/Sources/Quick/String+FileName.swift
+Pods/Quick/Sources/Quick/World.h
+Pods/Quick/Sources/Quick/World.swift
+Pods/Quick/Sources/Quick/XCTestSuite+QuickTestSuiteBuilder.m
+Pods/Quick/Sources/Quick/Configuration/Configuration.swift
+Pods/Quick/Sources/Quick/Configuration/QuickConfiguration.h
+Pods/Quick/Sources/Quick/Configuration/QuickConfiguration.m
+Pods/Quick/Sources/Quick/DSL/DSL.swift
+Pods/Quick/Sources/Quick/DSL/QCKDSL.h
+Pods/Quick/Sources/Quick/DSL/QCKDSL.m
+Pods/Quick/Sources/Quick/DSL/World+DSL.h
+Pods/Quick/Sources/Quick/DSL/World+DSL.swift
+Pods/Quick/Sources/Quick/Hooks/Closures.swift
+Pods/Quick/Sources/Quick/Hooks/ExampleHooks.swift
+Pods/Quick/Sources/Quick/Hooks/HooksPhase.swift
+Pods/Quick/Sources/Quick/Hooks/SuiteHooks.swift
+Pods/Target Support Files/Nimble/Info.plist
+Pods/Target Support Files/Nimble/Nimble-dummy.m
+Pods/Target Support Files/Nimble/Nimble-prefix.pch
+Pods/Target Support Files/Nimble/Nimble-umbrella.h
+Pods/Target Support Files/Nimble/Nimble.modulemap
+Pods/Target Support Files/Nimble/Nimble.xcconfig
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Info.plist
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-acknowledgements.markdown
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-acknowledgements.plist
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-dummy.m
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-frameworks.sh
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-resources.sh
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests-umbrella.h
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests.debug.xcconfig
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests.modulemap
+Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests.release.xcconfig
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Info.plist
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-acknowledgements.markdown
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-acknowledgements.plist
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-dummy.m
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-frameworks.sh
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-resources.sh
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests-umbrella.h
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests.debug.xcconfig
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests.modulemap
+Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests.release.xcconfig
+Pods/Target Support Files/Quick/Info.plist
+Pods/Target Support Files/Quick/Quick-dummy.m
+Pods/Target Support Files/Quick/Quick-prefix.pch
+Pods/Target Support Files/Quick/Quick-umbrella.h
+Pods/Target Support Files/Quick/Quick.modulemap
+Pods/Target Support Files/Quick/Quick.xcconfig
+QuickAndNimble.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/QuickAndNimble.xcscheme
+QuickAndNimble.xcodeproj/xcuserdata/javiercalatravallaveria.xcuserdatad/xcschemes/xcschememanagement.plist
