@@ -16,8 +16,6 @@
 		5A3158D71D4345590083ADA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3158D51D4345590083ADA2 /* LaunchScreen.storyboard */; };
 		5A3158ED1D4345590083ADA2 /* QuickAndNimbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3158EC1D4345590083ADA2 /* QuickAndNimbleUITests.swift */; };
 		5AA7D93B1D44B12800AA4666 /* SpecsSearchCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7D93A1D44B12800AA4666 /* SpecsSearchCollectionVC.swift */; };
-		5AAD96D61D43E608008E893E /* SpecsBasicFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAD96D51D43E608008E893E /* SpecsBasicFormVC.swift */; };
-		5AC981361D43685C00FBB8D2 /* BasicFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC981351D43685C00FBB8D2 /* BasicFormVC.swift */; };
 		F12010A65503E05BDE25062A /* Pods_QuickAndNimbleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A892B00CC1CA062BBE99044 /* Pods_QuickAndNimbleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		5A3158EC1D4345590083ADA2 /* QuickAndNimbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAndNimbleUITests.swift; sourceTree = "<group>"; };
 		5A3158EE1D4345590083ADA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AA7D93A1D44B12800AA4666 /* SpecsSearchCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecsSearchCollectionVC.swift; sourceTree = "<group>"; };
-		5AAD96D51D43E608008E893E /* SpecsBasicFormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecsBasicFormVC.swift; sourceTree = "<group>"; };
-		5AC981351D43685C00FBB8D2 /* BasicFormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicFormVC.swift; path = Controllers/BasicFormVC.swift; sourceTree = "<group>"; };
 		68E000E17802E2DDBD801A3A /* Pods-QuickAndNimbleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleUITests/Pods-QuickAndNimbleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		80A468C43EDF53571483B568 /* Pods-QuickAndNimbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAndNimbleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickAndNimbleTests/Pods-QuickAndNimbleTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A892B00CC1CA062BBE99044 /* Pods_QuickAndNimbleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickAndNimbleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +124,6 @@
 		5A3158E01D4345590083ADA2 /* QuickAndNimbleTests */ = {
 			isa = PBXGroup;
 			children = (
-				5AAD96D51D43E608008E893E /* SpecsBasicFormVC.swift */,
 				5AA7D93A1D44B12800AA4666 /* SpecsSearchCollectionVC.swift */,
 				5A3158E31D4345590083ADA2 /* Info.plist */,
 			);
@@ -147,7 +142,6 @@
 		5AC981341D43682F00FBB8D2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5AC981351D43685C00FBB8D2 /* BasicFormVC.swift */,
 				5A11E3311D442887004CD32D /* SearchCollectionVC.swift */,
 				5A11E3331D44308D004CD32D /* CellCVC.swift */,
 			);
@@ -389,7 +383,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A11E3341D44308D004CD32D /* CellCVC.swift in Sources */,
-				5AC981361D43685C00FBB8D2 /* BasicFormVC.swift in Sources */,
 				5A3158CD1D4345590083ADA2 /* AppDelegate.swift in Sources */,
 				5A11E3321D442887004CD32D /* SearchCollectionVC.swift in Sources */,
 			);
@@ -399,7 +392,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AAD96D61D43E608008E893E /* SpecsBasicFormVC.swift in Sources */,
 				5AA7D93B1D44B12800AA4666 /* SpecsSearchCollectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

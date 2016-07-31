@@ -26,30 +26,78 @@ class SpecsSearchCollectionVC: QuickSpec {
             expect(controller).notTo(beNil())
         }
         
-        describe ("Collectionview") {
+
+        
+        describe ("Collectionview validation") {
             beforeEach() {
                 _ = controller.view
                 controller.beginAppearanceTransition(true, animated: false)
             };
             
+            it("view controlller tilte"){
+                expect(controller.title) == "Gremlins searcher"
+            }
+            
 
             it ("Initial collection view initialization with no data"){
                 expect(controller.numberOfSectionsInCollectionView(controller.clvCollection)) == 1
-                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 0
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 11
+                expect(controller.scbSearchBar.hidden) == false
             }
             
             it ("Initial collection view initialization with some data"){
-                _ = controller.view
-                controller.beginAppearanceTransition(true, animated: false)
                 
                 expect(controller.numberOfSectionsInCollectionView(controller.clvCollection)) == 1
-                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 0
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 11
+                expect(controller.scbSearchBar.hidden) == false
+                
+                
                 controller.setDataSource(["one","two","three"])
                 expect(controller.numberOfSectionsInCollectionView(controller.clvCollection)) == 1
                 expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 3
+                expect(controller.scbSearchBar.hidden) == false
             }
 
         }
+        
+        describe ("Searchbar validation validation") {
+            beforeEach() {
+                _ = controller.view
+                controller.beginAppearanceTransition(true, animated: false)
+            };
+    
+            it ("Do a basic search"){
+                
+                controller.setDataSource(["one","two","three"])
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 3
+                expect(controller.scbSearchBar.hidden) == false
+                
+                controller.searchBar(controller.scbSearchBar, textDidChange: "one")
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 1
+                expect(controller.scbSearchBar.hidden) == false
+        
+                controller.searchBarCancelButtonClicked(controller.scbSearchBar)
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 3
+                expect(controller.scbSearchBar.hidden) == false
+                
+            }
+            
+            it ("Do a basic search with empty text"){
+                
+                controller.setDataSource(["one","two","three"])
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 3
+                expect(controller.scbSearchBar.hidden) == false
+                
+                controller.searchBar(controller.scbSearchBar, textDidChange: "")
+                expect(controller.collectionView(controller.clvCollection, numberOfItemsInSection: 0)) == 3
+                expect(controller.scbSearchBar.hidden) == false
+                
+                controller.searchBarCancelButtonClicked(controller.scbSearchBar)
+            }
+            
+        }
+        
+        
 
         
     }

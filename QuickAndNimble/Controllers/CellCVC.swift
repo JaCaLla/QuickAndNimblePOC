@@ -11,5 +11,6 @@ import UIKit
 class CellCVC: UICollectionViewCell {
     
     @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var imvPhoto: UIImageView!
 
 }
